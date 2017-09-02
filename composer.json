@@ -1,0 +1,19 @@
+{
+    "name": "vistarsvo/webclient",
+    "description": "Yii2 WebClient",
+    "keywords": ["yii2", "web", "phantomJS"],
+    "type": "yii2-component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vistar",
+            "email": "vistar.svo@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-httpclient": "2.*"
+    },
+    "autoload": {
+        "psr-4": { "vistarsvo\\webclient\\": "" }
+    }
+}
